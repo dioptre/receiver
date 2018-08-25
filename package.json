@@ -1,0 +1,29 @@
+{
+  "name": "receiver",
+  "version": "1.0.0",
+  "description": "LEDs",
+  "main": "server.js",
+  "dependencies": {
+    "fastify": "^1.10.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dioptre/receiver.git"
+  },
+  "keywords": [
+    "neopixel",
+    "WS2812"
+  ],
+  "author": "Andrew Grosser",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dioptre/receiver/issues"
+  },
+  "homepage": "https://github.com/dioptre/receiver#readme"
+}
